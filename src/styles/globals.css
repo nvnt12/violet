@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+#__next {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	max-width: 88rem;
+	padding-right: 20px;
+	padding-left: 20px;
+}

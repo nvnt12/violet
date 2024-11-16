@@ -2,6 +2,7 @@ import { cn } from '@/utility/mergeClassNames'
 import { useEffect, useState } from 'react'
 import { FaUserLarge } from 'react-icons/fa6'
 import { RiHeart3Line, RiShoppingBag3Line } from 'react-icons/ri'
+import { SearchBar } from './inputs/SearchBar'
 
 export default function Navbar() {
 	const [isScrolled, setIsScrolled] = useState(false)
@@ -27,6 +28,7 @@ export default function Navbar() {
 				<span className="h-5 text-xl font-bold uppercase leading-5 tracking-wider text-violet-800">
 					Violet
 				</span>
+                <SearchBar />
 				<div className="flex gap-6 align-middle">
 					<div className="relative flex flex-col items-center gap-0.5">
 						<span className="absolute -right-2 -top-2 flex h-4 w-4 items-center justify-center rounded-full bg-yellow text-[10px] font-semibold">

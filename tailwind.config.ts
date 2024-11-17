@@ -13,7 +13,8 @@ export default {
 				beige: '#B59F78',
 				'light-sage-green': '#D8DBBD',
 				'cream-white': '#FAF6E3',
-				yellow: '#edcf5d'
+				yellow: '#edcf5d',
+				"muted-black": '#010101'
 			}
 		}
 	},

@@ -20,11 +20,11 @@ export default function Navbar() {
 	return (
 		<div
 			className={cn(
-				'sticky top-0 z-50 flex w-full justify-center',
+				'sticky top-0 z-50 container',
 				isScrolled ? 'bg-cream-white via-gray-100 to-white' : 'bg-transparent'
 			)}
 		>
-			<div className="container flex w-full items-center justify-between py-4">
+			<div className="container-content flex w-full items-center justify-between py-4">
 				<span className="h-5 text-xl font-bold uppercase leading-5 tracking-wider text-violet-800">
 					Violet
 				</span>
